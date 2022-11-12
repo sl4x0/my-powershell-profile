@@ -40,18 +40,18 @@
             "backgroundImage": null,
             "backgroundImageOpacity": 0.20000000000000001,
             "colorScheme": "Dracula",
-            "tabColor":"#202A36",
-            "useAcrylic":true,
-            "acrylicOpacity":0.1,
-            "fontFace":"CaskaydiaCove Nerd Font",
+            "cursorShape": "filledBox",
             "font": 
             {
-                "face": "Code New Roman",
-                "size": 15
+                "face": "CaskaydiaCove Nerd Font Mono",
+                "size": 14
             },
-            "opacity": 96,
+            "icon": "D:\\ico\\among_us_player_red_icon_156942.ico",
+            "opacity": 25,
             "padding": "1",
-            "scrollbarState": "hidden"
+            "scrollbarState": "visible",
+            "tabColor": "#202A36",
+            "useAcrylic": true
         },
         "list": 
         [
@@ -65,52 +65,15 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
-                "tabTitle":"SlaxPS",
-                "opacity": 95
-            },
-            {
-                "font": 
-                {
-                    "face": "Cascadia Mono",
-                    "size": 13
-                },
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt"
-            },
-            {
-                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
-                "hidden": false,
-                "name": "kali-linux",
-                "source": "Windows.Terminal.Wsl"
+                "opacity": 25,
+                "padding": "1",
+                "scrollbarState": "visible",
+                "tabTitle": "SlaxPS"
             }
         ]
     },
     "schemes": 
     [
-          {
-        "name": "Dracula",
-        "cursorColor": "#F8F8F2",
-        "selectionBackground": "#44475A",
-        "background": "#282A36",
-        "foreground": "#F8F8F2",
-        "black": "#21222C",
-        "blue": "#BD93F9",
-        "cyan": "#8BE9FD",
-        "green": "#50FA7B",
-        "purple": "#FF79C6",
-        "red": "#FF5555",
-        "white": "#F8F8F2",
-        "yellow": "#F1FA8C",
-        "brightBlack": "#6272A4",
-        "brightBlue": "#D6ACFF",
-        "brightCyan": "#A4FFFF",
-        "brightGreen": "#69FF94",
-        "brightPurple": "#FF92DF",
-        "brightRed": "#FF6E6E",
-        "brightWhite": "#FFFFFF",
-        "brightYellow": "#FFFFA5"
-    },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -179,6 +142,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#282A36",
+            "black": "#21222C",
+            "blue": "#BD93F9",
+            "brightBlack": "#6272A4",
+            "brightBlue": "#D6ACFF",
+            "brightCyan": "#A4FFFF",
+            "brightGreen": "#69FF94",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#FF6E6E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFA5",
+            "cursorColor": "#F8F8F2",
+            "cyan": "#8BE9FD",
+            "foreground": "#F8F8F2",
+            "green": "#50FA7B",
+            "name": "Dracula",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "selectionBackground": "#44475A",
+            "white": "#F8F8F2",
+            "yellow": "#F1FA8C"
         },
         {
             "background": "#282C34",
@@ -342,5 +328,5 @@
             "yellow": "#808000"
         }
     ],
-    "theme": "dark"
+    "theme": "light"
 }
