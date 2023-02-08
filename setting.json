@@ -33,21 +33,22 @@
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "disableAnimations": true,
+    "language": "en-US",
     "profiles": 
     {
         "defaults": 
         {
             "backgroundImage": null,
-            "backgroundImageOpacity": 0.20000000000000001,
+            "backgroundImageOpacity": 1.0,
             "colorScheme": "Dracula",
-            "cursorShape": "filledBox",
+            "cursorShape": "bar",
             "font": 
             {
                 "face": "CaskaydiaCove Nerd Font Mono",
-                "size": 14
+                "size": 13
             },
-            "icon": "D:\\ico\\among_us_player_red_icon_156942.ico",
-            "opacity": 25,
+            "icon": null,
+            "opacity": 100,
             "padding": "1",
             "scrollbarState": "visible",
             "tabColor": "#202A36",
@@ -69,6 +70,13 @@
                 "padding": "1",
                 "scrollbarState": "visible",
                 "tabTitle": "SlaxPS"
+            },
+            {
+                "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Ubuntu",
+                "guid": "{fa628049-30ad-4feb-9b38-19c6a5cef54b}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "startingDirectory": "~"
             }
         ]
     },
@@ -305,6 +313,29 @@
             "yellow": "#C4A000"
         },
         {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
@@ -328,5 +359,5 @@
             "yellow": "#808000"
         }
     ],
-    "theme": "light"
+    "theme": "dark"
 }
