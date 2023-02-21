@@ -40,12 +40,12 @@
         {
             "backgroundImage": null,
             "backgroundImageOpacity": 1.0,
-            "colorScheme": "Dracula",
+            "colorScheme": "Campbell",
             "cursorShape": "bar",
             "font": 
             {
                 "face": "CaskaydiaCove Nerd Font Mono",
-                "size": 13
+                "size": 13.0
             },
             "icon": null,
             "opacity": 100,
@@ -61,7 +61,7 @@
                 "font": 
                 {
                     "face": "CaskaydiaCove Nerd Font",
-                    "size": 14
+                    "size": 14.0
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -359,5 +359,6 @@
             "yellow": "#808000"
         }
     ],
-    "theme": "dark"
+    "theme": "dark",
+    "themes": []
 }
